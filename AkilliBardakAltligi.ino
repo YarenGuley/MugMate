@@ -30,7 +30,7 @@ bool          reminderActive   = false;        // Hatırlatma döngüsü açık 
 unsigned long reminderStart    = 0;            // Başlangıç zaman damgası
 unsigned long lastReminder     = 0;            // Son otomatik tetikleme
 const unsigned long REMINDER_INTERVAL  = 3600000UL;   // 1 saat
-const unsigned long REMINDER_DURATION  = 15000UL;     // 15 s—kullanıcı istedi
+const unsigned long REMINDER_DURATION  = 15000UL;     // 15 s
 bool          inQuietHours     = false;        // 22:00-08:00 arası
 bool          ledsWereOff      = false;        // Hatırlatma bittiğinde LED durumunu geri yükleyebilmek için
 
