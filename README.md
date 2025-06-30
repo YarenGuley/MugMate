@@ -1,5 +1,5 @@
 # MugMate
-# Akıllı Bardak Altlığı 🚰🔥
+# Akıllı Bardak Altlığı
 
 ESP-32 tabanlı bu akıllı bardak altlığı, kupanızın sıcaklığını anlık olarak gösterir, **saatte bir** su içmenizi hatırlatır ve içeceğinizi bardak altlığında **5 dk** boyunca unutursanız sizi uyarır. 128×32 px OLED, 16 LED’li NeoPixel halka ve titreşim motoru sayesinde sessiz ama etkili bir çok-duyulu geri bildirim sunar.
 
@@ -9,8 +9,8 @@ ESP-32 tabanlı bu akıllı bardak altlığı, kupanızın sıcaklığını anl�
 | Özellik | Açıklama |
 |---------|----------|
 | **Sıcaklık Takibi** | 10 kΩ NTC termistör ⇒ 35 °C → mavi, 75 °C → kırmızı renk skalası. |
-| **OLED Arayüz** | Yüz animasyonu 🙂, dijital saat 🕒, sıcaklık değeri 🌡️ ve bildirim mesajları. |
-| **Su Hatırlatıcısı** | Saatte bir “Su içme zamanı!” ⏰ — LED beyaz çift flaş + titreşim (15 s). |
+| **OLED Arayüz** | Yüz animasyonu , dijital saat , sıcaklık değeri ve bildirim mesajları. |
+| **Su Hatırlatıcısı** | Saatte bir “Su içme zamanı!” — LED beyaz çift flaş + titreşim (15 s). |
 | **İçecek Unutma Uyarısı** | Bardak 5 dk hareket etmezse “İçeceğini unutma” bildirimi. |
 | **Sessiz Saat Modu** | 22:00–08:00 arası hatırlatıcı devre dışı. |
 | **Kullanıcı İptali** | IR el sensörüyle hatırlatıcıyı erken kapatma. |
@@ -33,7 +33,7 @@ ESP-32 tabanlı bu akıllı bardak altlığı, kupanızın sıcaklığını anl�
 
 ---
 
-## Devre Şeması (kısaca)
+ ##Devre Şeması
 ESP32 NeoPixel OLED (I²C) Termistör IR sensörler
 
 3V3 ----> VCC VCC <---------- 3V3 VCC
